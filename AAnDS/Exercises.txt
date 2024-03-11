@@ -1,0 +1,8 @@
+Exercises
+
+1.  For each C++ sorting algorithm in the Toolbox, show the time efficiency using Chrono.
+2.  For each C++ sorting algorithm in the Toolbox, create 100, 1000, 10000 and 100000 random numbers in an array and show the difference in time.
+3.  Re-create each of the sorting algorithms in C#
+4.  Use the StopWatch function to recreate exercises 1 and 2 above in C#.
+5.  See what other sorting algorithms you can fine.
+6.  Consider average time taken over 5 sorts

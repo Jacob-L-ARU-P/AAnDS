@@ -1,0 +1,11 @@
+﻿  TraceTablesA.cpp
+K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\MethodMadness.h(168,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\MethodMadness.h(181,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\TraceTablesA.cpp(274,32): warning C4244: '+=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\TraceTablesA.cpp(290,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\TraceTablesA.cpp(310,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TraceTablesA.vcxproj -> K:\JL 2213276\Y2-T2-W8-T\AAnDS\TraceTablesA\x64\Debug\TraceTablesA.exe

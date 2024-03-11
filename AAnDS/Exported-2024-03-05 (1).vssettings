@@ -1,0 +1,915 @@
+<UserSettings><ApplicationIdentity version="17.0"/><ToolsOptions/><Category name="Environment_Group" RegisteredName="Environment_Group"><Category name="Environment_Toolbox" Category="{481999F2-7479-4e03-83D5-BE808BA142DF}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_Toolbox" PackageName="Visual Studio Environment Package"><PropertyValue name="ShowAllTabs">false</PropertyValue><PropertyValue name="Version">1</PropertyValue><PropertyValue name="DeletedTabCount">0</PropertyValue><PropertyValue name="Tab0.Name">Bubble Sort</PropertyValue><PropertyValue name="Tab0.View">0</PropertyValue><PropertyValue name="Tab0.UseDefaultName">false</PropertyValue><PropertyValue name="Tab0.RecordType">1</PropertyValue><PropertyValue name="Tab0.Position">27</PropertyValue><PropertyValue name="Tab0.OriginalName">Bubble Sort</PropertyValue><PropertyValue name="Tab1.Name">Insertion Sort</PropertyValue><PropertyValue name="Tab1.View">0</PropertyValue><PropertyValue name="Tab1.UseDefaultName">false</PropertyValue><PropertyValue name="Tab1.RecordType">1</PropertyValue><PropertyValue name="Tab1.Position">28</PropertyValue><PropertyValue name="Tab1.OriginalName">Insertion Sort</PropertyValue><PropertyValue name="Tab2.Name">Merge Sort</PropertyValue><PropertyValue name="Tab2.View">0</PropertyValue><PropertyValue name="Tab2.UseDefaultName">false</PropertyValue><PropertyValue name="Tab2.RecordType">1</PropertyValue><PropertyValue name="Tab2.Position">29</PropertyValue><PropertyValue name="Tab2.OriginalName">Merge Sort</PropertyValue><PropertyValue name="Tab3.Name">Quick Sort</PropertyValue><PropertyValue name="Tab3.View">0</PropertyValue><PropertyValue name="Tab3.UseDefaultName">false</PropertyValue><PropertyValue name="Tab3.RecordType">1</PropertyValue><PropertyValue name="Tab3.Position">30</PropertyValue><PropertyValue name="Tab3.OriginalName">Quick Sort</PropertyValue><PropertyValue name="Tab4.Name">Chrono</PropertyValue><PropertyValue name="Tab4.View">0</PropertyValue><PropertyValue name="Tab4.UseDefaultName">false</PropertyValue><PropertyValue name="Tab4.RecordType">1</PropertyValue><PropertyValue name="Tab4.Position">31</PropertyValue><PropertyValue name="Tab4.OriginalName">Chrono</PropertyValue><PropertyValue name="Tab5.Name">Simple Chrono</PropertyValue><PropertyValue name="Tab5.View">0</PropertyValue><PropertyValue name="Tab5.UseDefaultName">false</PropertyValue><PropertyValue name="Tab5.RecordType">1</PropertyValue><PropertyValue name="Tab5.Position">32</PropertyValue><PropertyValue name="Tab5.OriginalName">Simple Chrono</PropertyValue><PropertyValue name="Tab6.Name">Less Efficient</PropertyValue><PropertyValue name="Tab6.View">0</PropertyValue><PropertyValue name="Tab6.UseDefaultName">false</PropertyValue><PropertyValue name="Tab6.RecordType">1</PropertyValue><PropertyValue name="Tab6.Position">33</PropertyValue><PropertyValue name="Tab6.OriginalName">Less Efficient</PropertyValue><PropertyValue name="Tab7.Name">More Efficient</PropertyValue><PropertyValue name="Tab7.View">0</PropertyValue><PropertyValue name="Tab7.UseDefaultName">false</PropertyValue><PropertyValue name="Tab7.RecordType">1</PropertyValue><PropertyValue name="Tab7.Position">34</PropertyValue><PropertyValue name="Tab7.OriginalName">More Efficient</PropertyValue><PropertyValue name="Tab8.Name">Efficient Sort</PropertyValue><PropertyValue name="Tab8.View">0</PropertyValue><PropertyValue name="Tab8.UseDefaultName">false</PropertyValue><PropertyValue name="Tab8.RecordType">1</PropertyValue><PropertyValue name="Tab8.Position">35</PropertyValue><PropertyValue name="Tab8.OriginalName">Efficient Sort</PropertyValue><PropertyValue name="Tab9.Name">Less Efficient Sort</PropertyValue><PropertyValue name="Tab9.View">0</PropertyValue><PropertyValue name="Tab9.UseDefaultName">false</PropertyValue><PropertyValue name="Tab9.RecordType">1</PropertyValue><PropertyValue name="Tab9.Position">36</PropertyValue><PropertyValue name="Tab9.OriginalName">Less Efficient Sort</PropertyValue><PropertyValue name="Tab10.Name">Efficient Search</PropertyValue><PropertyValue name="Tab10.View">0</PropertyValue><PropertyValue name="Tab10.UseDefaultName">false</PropertyValue><PropertyValue name="Tab10.RecordType">1</PropertyValue><PropertyValue name="Tab10.Position">37</PropertyValue><PropertyValue name="Tab10.OriginalName">Efficient Search</PropertyValue><PropertyValue name="Tab11.Name">Less Efficient Search</PropertyValue><PropertyValue name="Tab11.View">0</PropertyValue><PropertyValue name="Tab11.UseDefaultName">false</PropertyValue><PropertyValue name="Tab11.RecordType">1</PropertyValue><PropertyValue name="Tab11.Position">38</PropertyValue><PropertyValue name="Tab11.OriginalName">Less Efficient Search</PropertyValue><PropertyValue name="Tab12.Name">Bubble</PropertyValue><PropertyValue name="Tab12.View">0</PropertyValue><PropertyValue name="Tab12.UseDefaultName">false</PropertyValue><PropertyValue name="Tab12.RecordType">1</PropertyValue><PropertyValue name="Tab12.Position">39</PropertyValue><PropertyValue name="Tab12.OriginalName">Bubble</PropertyValue><PropertyValue name="TabCount">13</PropertyValue><PropertyValue name="DeletedItemCount">0</PropertyValue><PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item0.ID">EBD69634414590787D18320E3FA0458B</PropertyValue><PropertyValue name="Item0.Name">Text: #include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item0.UseDefaultName">true</PropertyValue><PropertyValue name="Item0.Tab">Bubble Sort</PropertyValue><PropertyValue name="Item0.OriginalTab">Bubble Sort</PropertyValue><PropertyValue name="Item0.RecordType">1</PropertyValue><PropertyValue name="Item0.Data">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item0.Position">1</PropertyValue><PropertyValue name="Item1.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item1.ID">1D42E258C3EE70784ADD1C092F670C7D</PropertyValue><PropertyValue name="Item1.Name">Text: void bubbleSort(vector&lt;int&gt;&amp; arr) {
+    int n = arr.size();
+    for (int i = 0; i &lt; n - 1; ++i) {
+        for (int j = 0; j &lt; n - i - 1; ++j) {
+            if (arr[j] &gt; arr[j + 1]) {
+                // Swap arr[j] and arr[j + 1]
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}</PropertyValue><PropertyValue name="Item1.UseDefaultName">true</PropertyValue><PropertyValue name="Item1.Tab">Bubble Sort</PropertyValue><PropertyValue name="Item1.OriginalTab">Bubble Sort</PropertyValue><PropertyValue name="Item1.RecordType">1</PropertyValue><PropertyValue name="Item1.Data">void bubbleSort(vector&lt;int&gt;&amp; arr) {
+    int n = arr.size();
+    for (int i = 0; i &lt; n - 1; ++i) {
+        for (int j = 0; j &lt; n - i - 1; ++j) {
+            if (arr[j] &gt; arr[j + 1]) {
+                // Swap arr[j] and arr[j + 1]
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}</PropertyValue><PropertyValue name="Item1.Position">2</PropertyValue><PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item2.ID">7599D5C2D34121181990EA7571C00B88</PropertyValue><PropertyValue name="Item2.Name">Text: int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    bubbleSort(arr);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item2.UseDefaultName">true</PropertyValue><PropertyValue name="Item2.Tab">Bubble Sort</PropertyValue><PropertyValue name="Item2.OriginalTab">Bubble Sort</PropertyValue><PropertyValue name="Item2.RecordType">1</PropertyValue><PropertyValue name="Item2.Data">int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    bubbleSort(arr);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item2.Position">3</PropertyValue><PropertyValue name="Item3.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item3.ID">AE05DA1D414590787D18320E3FA0458B</PropertyValue><PropertyValue name="Item3.Name">Text: 
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item3.UseDefaultName">true</PropertyValue><PropertyValue name="Item3.Tab">Insertion Sort</PropertyValue><PropertyValue name="Item3.OriginalTab">Insertion Sort</PropertyValue><PropertyValue name="Item3.RecordType">1</PropertyValue><PropertyValue name="Item3.Data">
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item3.Position">1</PropertyValue><PropertyValue name="Item4.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item4.ID">9EA8A4D5C62D9010D0B8C73B96FECAD7</PropertyValue><PropertyValue name="Item4.Name">Text: void insertionSort(vector&lt;int&gt;&amp; arr) {
+    int n = arr.size();
+    for (int i = 1; i &lt; n; ++i) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j &gt;= 0 &amp;&amp; arr[j] &gt; key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
+}</PropertyValue><PropertyValue name="Item4.UseDefaultName">true</PropertyValue><PropertyValue name="Item4.Tab">Insertion Sort</PropertyValue><PropertyValue name="Item4.OriginalTab">Insertion Sort</PropertyValue><PropertyValue name="Item4.RecordType">1</PropertyValue><PropertyValue name="Item4.Data">void insertionSort(vector&lt;int&gt;&amp; arr) {
+    int n = arr.size();
+    for (int i = 1; i &lt; n; ++i) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j &gt;= 0 &amp;&amp; arr[j] &gt; key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
+}</PropertyValue><PropertyValue name="Item4.Position">2</PropertyValue><PropertyValue name="Item5.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item5.ID">A0A975F1A60DA6B7FD0B55DE09A779DC</PropertyValue><PropertyValue name="Item5.Name">Text: int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    insertionSort(arr);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item5.UseDefaultName">true</PropertyValue><PropertyValue name="Item5.Tab">Insertion Sort</PropertyValue><PropertyValue name="Item5.OriginalTab">Insertion Sort</PropertyValue><PropertyValue name="Item5.RecordType">1</PropertyValue><PropertyValue name="Item5.Data">int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    insertionSort(arr);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item5.Position">3</PropertyValue><PropertyValue name="Item6.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item6.ID">3FA0458B56B74FEC414590787D18320E</PropertyValue><PropertyValue name="Item6.Name">Text: #include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;
+</PropertyValue><PropertyValue name="Item6.UseDefaultName">true</PropertyValue><PropertyValue name="Item6.Tab">Merge Sort</PropertyValue><PropertyValue name="Item6.OriginalTab">Merge Sort</PropertyValue><PropertyValue name="Item6.RecordType">1</PropertyValue><PropertyValue name="Item6.Data">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;
+</PropertyValue><PropertyValue name="Item6.Position">1</PropertyValue><PropertyValue name="Item7.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item7.ID">93C8B2B4652F1DCF46F2E7FFC198E173</PropertyValue><PropertyValue name="Item7.Name">Text: void merge(vector&lt;int&gt;&amp; arr, int l, int m, int r) {
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    // Create temporary arrays
+    vector&lt;int&gt; L(n1), R(n2);
+
+    // Copy data to temporary arrays L[] and R[]
+    for (int i = 0; i &lt; n1; i++)
+        L[i] = arr[l + i];
+    for (int j = 0; j &lt; n2; j++)
+        R[j] = arr[m + 1 + j];</PropertyValue><PropertyValue name="Item7.UseDefaultName">true</PropertyValue><PropertyValue name="Item7.Tab">Merge Sort</PropertyValue><PropertyValue name="Item7.OriginalTab">Merge Sort</PropertyValue><PropertyValue name="Item7.RecordType">1</PropertyValue><PropertyValue name="Item7.Data">void merge(vector&lt;int&gt;&amp; arr, int l, int m, int r) {
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    // Create temporary arrays
+    vector&lt;int&gt; L(n1), R(n2);
+
+    // Copy data to temporary arrays L[] and R[]
+    for (int i = 0; i &lt; n1; i++)
+        L[i] = arr[l + i];
+    for (int j = 0; j &lt; n2; j++)
+        R[j] = arr[m + 1 + j];</PropertyValue><PropertyValue name="Item7.Position">2</PropertyValue><PropertyValue name="Item8.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item8.ID">A75D3992C64DA097F4FC5A1278C4E5C1</PropertyValue><PropertyValue name="Item8.Name">Text:    // Merge the temporary arrays back into arr[l..r]
+    int i = 0, j = 0, k = l;
+    while (i &lt; n1 &amp;&amp; j &lt; n2) {
+        if (L[i] &lt;= R[j]) {
+            arr[k] = L[i];
+            i++;
+        }
+        else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    // Copy the remaining elements of L[], if any
+    while (i &lt; n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    // Copy the remaining elements of R[], if any
+    while (j &lt; n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}</PropertyValue><PropertyValue name="Item8.UseDefaultName">true</PropertyValue><PropertyValue name="Item8.Tab">Merge Sort</PropertyValue><PropertyValue name="Item8.OriginalTab">Merge Sort</PropertyValue><PropertyValue name="Item8.RecordType">1</PropertyValue><PropertyValue name="Item8.Data">   // Merge the temporary arrays back into arr[l..r]
+    int i = 0, j = 0, k = l;
+    while (i &lt; n1 &amp;&amp; j &lt; n2) {
+        if (L[i] &lt;= R[j]) {
+            arr[k] = L[i];
+            i++;
+        }
+        else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    // Copy the remaining elements of L[], if any
+    while (i &lt; n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    // Copy the remaining elements of R[], if any
+    while (j &lt; n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}</PropertyValue><PropertyValue name="Item8.Position">3</PropertyValue><PropertyValue name="Item9.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item9.ID">1EDF2E985913F6FF1C87B7381270867C</PropertyValue><PropertyValue name="Item9.Name">Text: void mergeSort(vector&lt;int&gt;&amp; arr, int l, int r) {
+    if (l &gt;= r)
+        return;
+
+    int m = l + (r - l) / 2;
+    mergeSort(arr, l, m);
+    mergeSort(arr, m + 1, r);
+    merge(arr, l, m, r);
+}</PropertyValue><PropertyValue name="Item9.UseDefaultName">true</PropertyValue><PropertyValue name="Item9.Tab">Merge Sort</PropertyValue><PropertyValue name="Item9.OriginalTab">Merge Sort</PropertyValue><PropertyValue name="Item9.RecordType">1</PropertyValue><PropertyValue name="Item9.Data">void mergeSort(vector&lt;int&gt;&amp; arr, int l, int r) {
+    if (l &gt;= r)
+        return;
+
+    int m = l + (r - l) / 2;
+    mergeSort(arr, l, m);
+    mergeSort(arr, m + 1, r);
+    merge(arr, l, m, r);
+}</PropertyValue><PropertyValue name="Item9.Position">4</PropertyValue><PropertyValue name="Item10.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item10.ID">E45072A059E97D7CCA4B5526470522F6</PropertyValue><PropertyValue name="Item10.Name">Text: int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    mergeSort(arr, 0, arr.size() - 1);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item10.UseDefaultName">true</PropertyValue><PropertyValue name="Item10.Tab">Merge Sort</PropertyValue><PropertyValue name="Item10.OriginalTab">Merge Sort</PropertyValue><PropertyValue name="Item10.RecordType">1</PropertyValue><PropertyValue name="Item10.Data">int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    mergeSort(arr, 0, arr.size() - 1);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item10.Position">5</PropertyValue><PropertyValue name="Item11.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item11.ID">EBD69634414590787D18320E3FA0458B</PropertyValue><PropertyValue name="Item11.Name">Text: #include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item11.UseDefaultName">true</PropertyValue><PropertyValue name="Item11.Tab">Quick Sort</PropertyValue><PropertyValue name="Item11.OriginalTab">Quick Sort</PropertyValue><PropertyValue name="Item11.RecordType">1</PropertyValue><PropertyValue name="Item11.Data">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+using namespace std;</PropertyValue><PropertyValue name="Item11.Position">1</PropertyValue><PropertyValue name="Item12.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item12.ID">1CFFE17053577B5F2B53F319078405B7</PropertyValue><PropertyValue name="Item12.Name">Text: // Function to partition the array and return the pivot index
+int partition(vector&lt;int&gt;&amp; arr, int low, int high) {
+    int pivot = arr[high]; // Choose the last element as the pivot
+    int i = low - 1; // Index of the smaller element
+
+    for (int j = low; j &lt; high; j++) {
+        // If the current element is smaller than or equal to the pivot
+        if (arr[j] &lt;= pivot) {
+            i++; // Increment index of smaller element
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return i + 1; // Return the partitioning index
+}</PropertyValue><PropertyValue name="Item12.UseDefaultName">true</PropertyValue><PropertyValue name="Item12.Tab">Quick Sort</PropertyValue><PropertyValue name="Item12.OriginalTab">Quick Sort</PropertyValue><PropertyValue name="Item12.RecordType">1</PropertyValue><PropertyValue name="Item12.Data">// Function to partition the array and return the pivot index
+int partition(vector&lt;int&gt;&amp; arr, int low, int high) {
+    int pivot = arr[high]; // Choose the last element as the pivot
+    int i = low - 1; // Index of the smaller element
+
+    for (int j = low; j &lt; high; j++) {
+        // If the current element is smaller than or equal to the pivot
+        if (arr[j] &lt;= pivot) {
+            i++; // Increment index of smaller element
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return i + 1; // Return the partitioning index
+}</PropertyValue><PropertyValue name="Item12.Position">2</PropertyValue><PropertyValue name="Item13.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item13.ID">3114B0ABFC28E057CCF0AB98CEF0E0D9</PropertyValue><PropertyValue name="Item13.Name">Text: // Function to perform quicksort
+void quickSort(vector&lt;int&gt;&amp; arr, int low, int high) {
+    if (low &lt; high) {
+        // Partition the array and get the pivot index
+        int pi = partition(arr, low, high);
+
+        // Recursively sort elements before and after the pivot
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}</PropertyValue><PropertyValue name="Item13.UseDefaultName">true</PropertyValue><PropertyValue name="Item13.Tab">Quick Sort</PropertyValue><PropertyValue name="Item13.OriginalTabID">General</PropertyValue><PropertyValue name="Item13.OriginalTab">General</PropertyValue><PropertyValue name="Item13.RecordType">1</PropertyValue><PropertyValue name="Item13.Data">// Function to perform quicksort
+void quickSort(vector&lt;int&gt;&amp; arr, int low, int high) {
+    if (low &lt; high) {
+        // Partition the array and get the pivot index
+        int pi = partition(arr, low, high);
+
+        // Recursively sort elements before and after the pivot
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}</PropertyValue><PropertyValue name="Item13.Position">3</PropertyValue><PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item14.ID">8A01738059E97D7CAD75477D9E298E0A</PropertyValue><PropertyValue name="Item14.Name">Text: int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    quickSort(arr, 0, arr.size() - 1);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item14.UseDefaultName">true</PropertyValue><PropertyValue name="Item14.Tab">Quick Sort</PropertyValue><PropertyValue name="Item14.OriginalTab">Quick Sort</PropertyValue><PropertyValue name="Item14.RecordType">1</PropertyValue><PropertyValue name="Item14.Data">int main() {
+    vector&lt;int&gt; arr = { 64, 34, 25, 12, 22, 11, 90 };
+    cout &lt;&lt; "Original array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    quickSort(arr, 0, arr.size() - 1);
+
+    cout &lt;&lt; "Sorted array: ";
+    for (int num : arr) {
+        cout &lt;&lt; num &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</PropertyValue><PropertyValue name="Item14.Position">4</PropertyValue><PropertyValue name="Item15.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item15.ID">FDF02BFA73A155DD681CB1AB771E9569</PropertyValue><PropertyValue name="Item15.Name">Text: #include&lt;chrono&gt;</PropertyValue><PropertyValue name="Item15.UseDefaultName">true</PropertyValue><PropertyValue name="Item15.Tab">Chrono</PropertyValue><PropertyValue name="Item15.OriginalTab">Chrono</PropertyValue><PropertyValue name="Item15.RecordType">1</PropertyValue><PropertyValue name="Item15.Data">#include&lt;chrono&gt;</PropertyValue><PropertyValue name="Item15.Position">1</PropertyValue><PropertyValue name="Item16.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item16.ID">B29F8F1A5AA62C77D50C80AAB90819BA</PropertyValue><PropertyValue name="Item16.Name">Text:  auto countStart = chrono::steady_clock::now();</PropertyValue><PropertyValue name="Item16.UseDefaultName">true</PropertyValue><PropertyValue name="Item16.Tab">Chrono</PropertyValue><PropertyValue name="Item16.OriginalTab">Chrono</PropertyValue><PropertyValue name="Item16.RecordType">1</PropertyValue><PropertyValue name="Item16.Data"> auto countStart = chrono::steady_clock::now();</PropertyValue><PropertyValue name="Item16.Position">2</PropertyValue><PropertyValue name="Item17.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item17.ID">17858ABCE56729BD70406536344DF50A</PropertyValue><PropertyValue name="Item17.Name">Text: auto countEnd = chrono::steady_clock::now();</PropertyValue><PropertyValue name="Item17.UseDefaultName">true</PropertyValue><PropertyValue name="Item17.Tab">Chrono</PropertyValue><PropertyValue name="Item17.OriginalTab">Chrono</PropertyValue><PropertyValue name="Item17.RecordType">1</PropertyValue><PropertyValue name="Item17.Data">auto countEnd = chrono::steady_clock::now();</PropertyValue><PropertyValue name="Item17.Position">3</PropertyValue><PropertyValue name="Item18.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item18.ID">32ABEEEB8F77CC0747EEA70AFA166AA5</PropertyValue><PropertyValue name="Item18.Name">Text: chrono::duration&lt;double, std::milli&gt; countDur = countEnd - countStart;</PropertyValue><PropertyValue name="Item18.UseDefaultName">true</PropertyValue><PropertyValue name="Item18.Tab">Chrono</PropertyValue><PropertyValue name="Item18.OriginalTabID">General</PropertyValue><PropertyValue name="Item18.OriginalTab">General</PropertyValue><PropertyValue name="Item18.RecordType">1</PropertyValue><PropertyValue name="Item18.Data">chrono::duration&lt;double, std::milli&gt; countDur = countEnd - countStart;</PropertyValue><PropertyValue name="Item18.Position">4</PropertyValue><PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item19.ID">C8D8C61F13E54207A6D5070C6683C00E</PropertyValue><PropertyValue name="Item19.Name">Text: total += countDur.count();
+
+        cout &lt;&lt; "Time taken " &lt;&lt; total/1000;</PropertyValue><PropertyValue name="Item19.UseDefaultName">true</PropertyValue><PropertyValue name="Item19.Tab">Chrono</PropertyValue><PropertyValue name="Item19.OriginalTab">Chrono</PropertyValue><PropertyValue name="Item19.RecordType">1</PropertyValue><PropertyValue name="Item19.Data">total += countDur.count();
+
+        cout &lt;&lt; "Time taken " &lt;&lt; total/1000;</PropertyValue><PropertyValue name="Item19.Position">5</PropertyValue><PropertyValue name="Item20.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item20.ID">F4E8F13069BB91D5D86F1EE6A4C9E86D</PropertyValue><PropertyValue name="Item20.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+// Function to demonstrate the algorithm
+void myAlgorithm() {
+    // Simulating some computational work
+    for (int i = 0; i &lt; 100000000; ++i) {
+        // Do some computation
+        int x = i * i;
+    }
+}
+
+int main() {
+    // Start measuring time
+    auto start = chrono::high_resolution_clock::now();
+
+    // Call the algorithm
+    myAlgorithm();
+
+    // Stop measuring time and calculate duration
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    // Output the duration
+    cout &lt;&lt; "Time taken by the algorithm: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item20.UseDefaultName">true</PropertyValue><PropertyValue name="Item20.Tab">Simple Chrono</PropertyValue><PropertyValue name="Item20.OriginalTab">Simple Chrono</PropertyValue><PropertyValue name="Item20.RecordType">1</PropertyValue><PropertyValue name="Item20.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+// Function to demonstrate the algorithm
+void myAlgorithm() {
+    // Simulating some computational work
+    for (int i = 0; i &lt; 100000000; ++i) {
+        // Do some computation
+        int x = i * i;
+    }
+}
+
+int main() {
+    // Start measuring time
+    auto start = chrono::high_resolution_clock::now();
+
+    // Call the algorithm
+    myAlgorithm();
+
+    // Stop measuring time and calculate duration
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    // Output the duration
+    cout &lt;&lt; "Time taken by the algorithm: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item20.Position">1</PropertyValue><PropertyValue name="Item21.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item21.ID">C6E08302D16A88BC7E1A42021173D085</PropertyValue><PropertyValue name="Item21.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient algorithm to find the sum of elements in an array (iterative approach)
+int lessEfficientSum(const int arr[], int size) {
+    int sum = 0;
+    for (int i = 0; i &lt; size; ++i) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = lessEfficientSum(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Sum: " &lt;&lt; result &lt;&lt; endl;
+    cout &lt;&lt; "Time taken by less efficient algorithm (iterative): " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item21.UseDefaultName">true</PropertyValue><PropertyValue name="Item21.Tab">Less Efficient</PropertyValue><PropertyValue name="Item21.OriginalTab">Less Efficient</PropertyValue><PropertyValue name="Item21.RecordType">1</PropertyValue><PropertyValue name="Item21.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient algorithm to find the sum of elements in an array (iterative approach)
+int lessEfficientSum(const int arr[], int size) {
+    int sum = 0;
+    for (int i = 0; i &lt; size; ++i) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = lessEfficientSum(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Sum: " &lt;&lt; result &lt;&lt; endl;
+    cout &lt;&lt; "Time taken by less efficient algorithm (iterative): " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item21.Position">1</PropertyValue><PropertyValue name="Item22.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item22.ID">9E807B90108CBB75CDB2F52037D444E5</PropertyValue><PropertyValue name="Item22.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Efficient algorithm to find the sum of elements in an array
+int efficientSum(const int arr[], int size) {
+    int sum = 0;
+    for (int i = 0; i &lt; size; ++i) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = efficientSum(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Sum: " &lt;&lt; result &lt;&lt; endl;
+    cout &lt;&lt; "Time taken by efficient algorithm: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item22.UseDefaultName">true</PropertyValue><PropertyValue name="Item22.Tab">More Efficient</PropertyValue><PropertyValue name="Item22.OriginalTab">More Efficient</PropertyValue><PropertyValue name="Item22.RecordType">1</PropertyValue><PropertyValue name="Item22.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Efficient algorithm to find the sum of elements in an array
+int efficientSum(const int arr[], int size) {
+    int sum = 0;
+    for (int i = 0; i &lt; size; ++i) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = efficientSum(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Sum: " &lt;&lt; result &lt;&lt; endl;
+    cout &lt;&lt; "Time taken by efficient algorithm: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item22.Position">1</PropertyValue><PropertyValue name="Item23.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item23.ID">60C4CBE63F00293BA61002208A685E9E</PropertyValue><PropertyValue name="Item23.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+// Efficient function to sort an array using std::sort
+void efficientSort(int arr[], int size) {
+    sort(arr, arr + size);
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % 1000;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    efficientSort(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Time taken for efficient sort: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item23.UseDefaultName">true</PropertyValue><PropertyValue name="Item23.Tab">Efficient Sort</PropertyValue><PropertyValue name="Item23.OriginalTab">Efficient Sort</PropertyValue><PropertyValue name="Item23.RecordType">1</PropertyValue><PropertyValue name="Item23.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+// Efficient function to sort an array using std::sort
+void efficientSort(int arr[], int size) {
+    sort(arr, arr + size);
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % 1000;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    efficientSort(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Time taken for efficient sort: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item23.Position">1</PropertyValue><PropertyValue name="Item24.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item24.ID">BFF96F10C1717CA4A49C2278F0B917A0</PropertyValue><PropertyValue name="Item24.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient function to sort an array using Bubble Sort
+void lessEfficientSort(int arr[], int size) {
+    for (int i = 0; i &lt; size - 1; ++i) {
+        for (int j = 0; j &lt; size - i - 1; ++j) {
+            if (arr[j] &gt; arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+}
+
+int main() {
+    const int SIZE = 1000; // Reduced size for demonstration
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % 1000;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    lessEfficientSort(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Time taken for less efficient sort: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item24.UseDefaultName">true</PropertyValue><PropertyValue name="Item24.Tab">Less Efficient Sort</PropertyValue><PropertyValue name="Item24.OriginalTab">Less Efficient Sort</PropertyValue><PropertyValue name="Item24.RecordType">1</PropertyValue><PropertyValue name="Item24.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient function to sort an array using Bubble Sort
+void lessEfficientSort(int arr[], int size) {
+    for (int i = 0; i &lt; size - 1; ++i) {
+        for (int j = 0; j &lt; size - i - 1; ++j) {
+            if (arr[j] &gt; arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+}
+
+int main() {
+    const int SIZE = 1000; // Reduced size for demonstration
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % 1000;
+    }
+
+    auto start = chrono::high_resolution_clock::now();
+    lessEfficientSort(arr, SIZE);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    cout &lt;&lt; "Time taken for less efficient sort: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}</PropertyValue><PropertyValue name="Item24.Position">1</PropertyValue><PropertyValue name="Item25.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item25.ID">40532A524EE40AA818D4AF787CBF3104</PropertyValue><PropertyValue name="Item25.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+// Efficient function to perform binary search on a sorted array
+int efficientBinarySearch(int arr[], int size, int key) {
+    int left = 0, right = size - 1;
+    while (left &lt;= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == key) {
+            return mid; // Return index of the key if found
+        }
+        if (arr[mid] &lt; key) {
+            left = mid + 1;
+        }
+        else {
+            right = mid - 1;
+        }
+    }
+    return -1; // Return -1 if key not found
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with sorted values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    int key = rand() % SIZE; // Random key to search for
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = efficientBinarySearch(arr, SIZE, key);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    if (result != -1) {
+        cout &lt;&lt; "Key found at index " &lt;&lt; result &lt;&lt; endl;
+    }
+    else {
+        cout &lt;&lt; "Key not found" &lt;&lt; endl;
+    }
+
+    cout &lt;&lt; "Time taken for efficient search: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item25.UseDefaultName">true</PropertyValue><PropertyValue name="Item25.Tab">Efficient Search</PropertyValue><PropertyValue name="Item25.OriginalTab">Efficient Search</PropertyValue><PropertyValue name="Item25.RecordType">1</PropertyValue><PropertyValue name="Item25.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+// Efficient function to perform binary search on a sorted array
+int efficientBinarySearch(int arr[], int size, int key) {
+    int left = 0, right = size - 1;
+    while (left &lt;= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == key) {
+            return mid; // Return index of the key if found
+        }
+        if (arr[mid] &lt; key) {
+            left = mid + 1;
+        }
+        else {
+            right = mid - 1;
+        }
+    }
+    return -1; // Return -1 if key not found
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with sorted values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = i;
+    }
+
+    int key = rand() % SIZE; // Random key to search for
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = efficientBinarySearch(arr, SIZE, key);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    if (result != -1) {
+        cout &lt;&lt; "Key found at index " &lt;&lt; result &lt;&lt; endl;
+    }
+    else {
+        cout &lt;&lt; "Key not found" &lt;&lt; endl;
+    }
+
+    cout &lt;&lt; "Time taken for efficient search: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item25.Position">1</PropertyValue><PropertyValue name="Item26.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item26.ID">F2A7C01F2958250CE46CF9D48D9E7463</PropertyValue><PropertyValue name="Item26.Name">Text: #include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient function to perform linear search on an array
+int lessEfficientLinearSearch(int arr[], int size, int key) {
+    for (int i = 0; i &lt; size; ++i) {
+        if (arr[i] == key) {
+            return i; // Return the index of the key if found
+        }
+    }
+    return -1; // Return -1 if key not found
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % SIZE;
+    }
+
+    int key = rand() % SIZE; // Random key to search for
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = lessEfficientLinearSearch(arr, SIZE, key);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    if (result != -1) {
+        cout &lt;&lt; "Key found at index " &lt;&lt; result &lt;&lt; endl;
+    }
+    else {
+        cout &lt;&lt; "Key not found" &lt;&lt; endl;
+    }
+
+    cout &lt;&lt; "Time taken for less efficient search: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item26.UseDefaultName">true</PropertyValue><PropertyValue name="Item26.Tab">Less Efficient Search</PropertyValue><PropertyValue name="Item26.OriginalTab">Less Efficient Search</PropertyValue><PropertyValue name="Item26.RecordType">1</PropertyValue><PropertyValue name="Item26.Data">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+
+using namespace std;
+
+// Less efficient function to perform linear search on an array
+int lessEfficientLinearSearch(int arr[], int size, int key) {
+    for (int i = 0; i &lt; size; ++i) {
+        if (arr[i] == key) {
+            return i; // Return the index of the key if found
+        }
+    }
+    return -1; // Return -1 if key not found
+}
+
+int main() {
+    const int SIZE = 1000000;
+    int* arr = new int[SIZE]; // Allocate memory dynamically
+
+    // Initialize array with random values
+    for (int i = 0; i &lt; SIZE; ++i) {
+        arr[i] = rand() % SIZE;
+    }
+
+    int key = rand() % SIZE; // Random key to search for
+
+    auto start = chrono::high_resolution_clock::now();
+    int result = lessEfficientLinearSearch(arr, SIZE, key);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration&lt;double&gt; duration = end - start;
+
+    if (result != -1) {
+        cout &lt;&lt; "Key found at index " &lt;&lt; result &lt;&lt; endl;
+    }
+    else {
+        cout &lt;&lt; "Key not found" &lt;&lt; endl;
+    }
+
+    cout &lt;&lt; "Time taken for less efficient search: " &lt;&lt; duration.count() &lt;&lt; " seconds" &lt;&lt; endl;
+
+    delete[] arr; // Free the dynamically allocated memory
+    return 0;
+}
+</PropertyValue><PropertyValue name="Item26.Position">1</PropertyValue><PropertyValue name="Item27.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item27.ID">231BAD679BFC7D3465EBB98C7F0B03EE</PropertyValue><PropertyValue name="Item27.Name">Text:     using System;
+    using System.Diagnostics;
+    using System.Threading;</PropertyValue><PropertyValue name="Item27.UseDefaultName">true</PropertyValue><PropertyValue name="Item27.Tab">Bubble</PropertyValue><PropertyValue name="Item27.OriginalTab">Bubble</PropertyValue><PropertyValue name="Item27.RecordType">1</PropertyValue><PropertyValue name="Item27.Data">    using System;
+    using System.Diagnostics;
+    using System.Threading;</PropertyValue><PropertyValue name="Item27.Position">1</PropertyValue><PropertyValue name="Item28.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item28.ID">080E95993C6E4D5499C33CFE19423DF5</PropertyValue><PropertyValue name="Item28.Name">Text: Stopwatch stopWatch = new Stopwatch();
+            int[] numbers = { 23, 56, 21, 12, 8, 90, 4 };
+
+            for(int i=0; i&lt;numbers.Length; i++)
+            {
+                Console.Write(numbers[i] + ",");
+            }</PropertyValue><PropertyValue name="Item28.UseDefaultName">true</PropertyValue><PropertyValue name="Item28.Tab">Bubble</PropertyValue><PropertyValue name="Item28.OriginalTabID">General</PropertyValue><PropertyValue name="Item28.OriginalTab">General</PropertyValue><PropertyValue name="Item28.RecordType">1</PropertyValue><PropertyValue name="Item28.Data">Stopwatch stopWatch = new Stopwatch();
+            int[] numbers = { 23, 56, 21, 12, 8, 90, 4 };
+
+            for(int i=0; i&lt;numbers.Length; i++)
+            {
+                Console.Write(numbers[i] + ",");
+            }</PropertyValue><PropertyValue name="Item28.Position">2</PropertyValue><PropertyValue name="Item29.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item29.ID">18CA07E1CD44ECAF65D902CA54A075C5</PropertyValue><PropertyValue name="Item29.Name">Text:  stopWatch.Start();
+
+            for (int i=0;i&lt;numbers.Length-1; i++)
+            {
+                for(int j=0;j&lt;numbers.Length-1;j++)
+                {
+                    if (numbers[j] &gt; numbers[j+1])
+                    {
+                        int temp = numbers[j + 1];
+                        numbers[j+1] = numbers[j];
+                        numbers[j] = temp;
+                    }
+                }
+            }
+            stopWatch.Stop();</PropertyValue><PropertyValue name="Item29.UseDefaultName">true</PropertyValue><PropertyValue name="Item29.Tab">Bubble</PropertyValue><PropertyValue name="Item29.OriginalTab">Bubble</PropertyValue><PropertyValue name="Item29.RecordType">1</PropertyValue><PropertyValue name="Item29.Data"> stopWatch.Start();
+
+            for (int i=0;i&lt;numbers.Length-1; i++)
+            {
+                for(int j=0;j&lt;numbers.Length-1;j++)
+                {
+                    if (numbers[j] &gt; numbers[j+1])
+                    {
+                        int temp = numbers[j + 1];
+                        numbers[j+1] = numbers[j];
+                        numbers[j] = temp;
+                    }
+                }
+            }
+            stopWatch.Stop();</PropertyValue><PropertyValue name="Item29.Position">3</PropertyValue><PropertyValue name="Item30.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item30.ID">7F7A43C47ED30495715133DD7ABA20E4</PropertyValue><PropertyValue name="Item30.Name">Text: TimeSpan ts = stopWatch.Elapsed;
+
+            for (int i = 0; i &lt; numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i] + ",");
+            }
+
+            Console.WriteLine(ts);</PropertyValue><PropertyValue name="Item30.UseDefaultName">true</PropertyValue><PropertyValue name="Item30.Tab">Bubble</PropertyValue><PropertyValue name="Item30.OriginalTabID">General</PropertyValue><PropertyValue name="Item30.OriginalTab">General</PropertyValue><PropertyValue name="Item30.RecordType">1</PropertyValue><PropertyValue name="Item30.Data">TimeSpan ts = stopWatch.Elapsed;
+
+            for (int i = 0; i &lt; numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i] + ",");
+            }
+
+            Console.WriteLine(ts);</PropertyValue><PropertyValue name="Item30.Position">4</PropertyValue><PropertyValue name="ItemCount">31</PropertyValue></Category></Category></UserSettings>
